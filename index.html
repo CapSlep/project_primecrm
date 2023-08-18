@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <title>PrimeCRM</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- ====== HEADER ====== -->
+    <section class="header js-header">
+        <div class="header__container container">
+
+            <div class="header__logo">
+                <svg class="header__icon" xmlns="http://www.w3.org/2000/svg" width="56" height="55" viewBox="0 0 56 55"
+                    fill="none">
+                    <rect x="0.857422" width="55" height="55" rx="9" fill="#F4F4F4" />
+                    <rect x="14.8574" y="12" width="13" height="34" rx="3" fill="#263238" />
+                    <g style="mix-blend-mode:darken">
+                        <rect x="19.8574" y="12" width="25" height="25" rx="12.5" fill="#4BE3EB" />
+                    </g>
+                    <path
+                        d="M27.335 13C27.6607 13.3998 27.8574 13.9188 27.8574 14.4859V36C23.2117 34.3984 19.8574 29.8114 19.8574 24.4026C19.8574 19.1988 22.9623 14.7556 27.335 13Z"
+                        fill="#47CFFF" />
+                </svg>
+                <h2 class="header__title title">PrimeCRM</h2>
+            </div>
+
+            <nav class="header__nav js-nav">
+                <a href="#" class="header__link">Solution</a>
+                <a href="#" class="header__link">Industries</a>
+                <a href="#" class="header__link">Products</a>
+                <a href="#" class="header__link">Resources</a>
+                <a href="#" class="header__link">Pricing</a>
+                <a href="#" class="header__link header__link-active">Login</a>
+            </nav>
+
+            <button class="burger" type="button" id="burgerToggle">
+                <span class="burger__item">Menu</span>
+            </button>
+
+        </div>
+    </section>
+
+    <!-- ====== BANNER ====== -->
+    <section class="banner">
+        <div class="banner__background"></div>
+        <div class="banner__container container">
+            <div class="banner__content">
+                <div class="banner__textbox textbox">
+                    <h1 class="banner__title title">The CRM Platform Your Whole Business Will Love
+                    </h1>
+                    <div class="banner__text">Provide excellent customer service. Answer more tickets all-in-one
+                        Primarily software.</div>
+                </div>
+                <div class="banner__buttons">
+                    <button class="banner__button-first">Get Started</button>
+                    <button class="banner__button-second">How It Work</button>
+                </div>
+            </div>
+
+            <div class="award">
+                <img class="award__wing" src="/img/Banner/wing.png" alt="">
+                <img class="award__reward" src="/img/Banner/reward.png" alt="">
+                <img class="award__wing-mirror award__wing-mirror-first" src="/img/Banner/wing.png" alt="">
+                <div class="award__textbox textbox">
+                    <h6 class="award__title">5 Star Awards</h6>
+                    <div class="award__text">for customer services</div>
+                    <div class="award__stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29" fill="none">
+                            <path
+                                d="M13.4972 1.52129C14.0145 -0.0708787 16.267 -0.0708787 16.7843 1.52129L19.0821 8.59322C19.3135 9.30526 19.977 9.78735 20.7257 9.78735L28.1616 9.78735C29.8357 9.78735 30.5317 11.9296 29.1774 12.9136L23.1616 17.2843C22.5559 17.7244 22.3025 18.5044 22.5338 19.2164L24.8316 26.2884C25.349 27.8805 23.5267 29.2045 22.1723 28.2205L16.1565 23.8498C15.5508 23.4097 14.7307 23.4097 14.125 23.8498L8.10923 28.2205C6.75485 29.2045 4.93254 27.8805 5.44987 26.2884L7.74768 19.2164C7.97904 18.5044 7.72559 17.7244 7.11989 17.2843L1.10415 12.9136C-0.250233 11.9296 0.445827 9.78735 2.11993 9.78735L9.5558 9.78735C10.3045 9.78735 10.968 9.30526 11.1994 8.59322L13.4972 1.52129Z"
+                                fill="#FFB545" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29" fill="none">
+                            <path
+                                d="M13.4972 1.52129C14.0145 -0.0708787 16.267 -0.0708787 16.7843 1.52129L19.0821 8.59322C19.3135 9.30526 19.977 9.78735 20.7257 9.78735L28.1616 9.78735C29.8357 9.78735 30.5317 11.9296 29.1774 12.9136L23.1616 17.2843C22.5559 17.7244 22.3025 18.5044 22.5338 19.2164L24.8316 26.2884C25.349 27.8805 23.5267 29.2045 22.1723 28.2205L16.1565 23.8498C15.5508 23.4097 14.7307 23.4097 14.125 23.8498L8.10923 28.2205C6.75485 29.2045 4.93254 27.8805 5.44987 26.2884L7.74768 19.2164C7.97904 18.5044 7.72559 17.7244 7.11989 17.2843L1.10415 12.9136C-0.250233 11.9296 0.445827 9.78735 2.11993 9.78735L9.5558 9.78735C10.3045 9.78735 10.968 9.30526 11.1994 8.59322L13.4972 1.52129Z"
+                                fill="#FFB545" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29" fill="none">
+                            <path
+                                d="M13.4972 1.52129C14.0145 -0.0708787 16.267 -0.0708787 16.7843 1.52129L19.0821 8.59322C19.3135 9.30526 19.977 9.78735 20.7257 9.78735L28.1616 9.78735C29.8357 9.78735 30.5317 11.9296 29.1774 12.9136L23.1616 17.2843C22.5559 17.7244 22.3025 18.5044 22.5338 19.2164L24.8316 26.2884C25.349 27.8805 23.5267 29.2045 22.1723 28.2205L16.1565 23.8498C15.5508 23.4097 14.7307 23.4097 14.125 23.8498L8.10923 28.2205C6.75485 29.2045 4.93254 27.8805 5.44987 26.2884L7.74768 19.2164C7.97904 18.5044 7.72559 17.7244 7.11989 17.2843L1.10415 12.9136C-0.250233 11.9296 0.445827 9.78735 2.11993 9.78735L9.5558 9.78735C10.3045 9.78735 10.968 9.30526 11.1994 8.59322L13.4972 1.52129Z"
+                                fill="#FFB545" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29" fill="none">
+                            <path
+                                d="M13.4972 1.52129C14.0145 -0.0708787 16.267 -0.0708787 16.7843 1.52129L19.0821 8.59322C19.3135 9.30526 19.977 9.78735 20.7257 9.78735L28.1616 9.78735C29.8357 9.78735 30.5317 11.9296 29.1774 12.9136L23.1616 17.2843C22.5559 17.7244 22.3025 18.5044 22.5338 19.2164L24.8316 26.2884C25.349 27.8805 23.5267 29.2045 22.1723 28.2205L16.1565 23.8498C15.5508 23.4097 14.7307 23.4097 14.125 23.8498L8.10923 28.2205C6.75485 29.2045 4.93254 27.8805 5.44987 26.2884L7.74768 19.2164C7.97904 18.5044 7.72559 17.7244 7.11989 17.2843L1.10415 12.9136C-0.250233 11.9296 0.445827 9.78735 2.11993 9.78735L9.5558 9.78735C10.3045 9.78735 10.968 9.30526 11.1994 8.59322L13.4972 1.52129Z"
+                                fill="#FFB545" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29" fill="none">
+                            <path
+                                d="M13.4972 1.52129C14.0145 -0.0708787 16.267 -0.0708787 16.7843 1.52129L19.0821 8.59322C19.3135 9.30526 19.977 9.78735 20.7257 9.78735L28.1616 9.78735C29.8357 9.78735 30.5317 11.9296 29.1774 12.9136L23.1616 17.2843C22.5559 17.7244 22.3025 18.5044 22.5338 19.2164L24.8316 26.2884C25.349 27.8805 23.5267 29.2045 22.1723 28.2205L16.1565 23.8498C15.5508 23.4097 14.7307 23.4097 14.125 23.8498L8.10923 28.2205C6.75485 29.2045 4.93254 27.8805 5.44987 26.2884L7.74768 19.2164C7.97904 18.5044 7.72559 17.7244 7.11989 17.2843L1.10415 12.9136C-0.250233 11.9296 0.445827 9.78735 2.11993 9.78735L9.5558 9.78735C10.3045 9.78735 10.968 9.30526 11.1994 8.59322L13.4972 1.52129Z"
+                                fill="#FFB545" />
+                        </svg>
+                    </div>
+                </div>
+                <img class="award__wing-mirror award__wing-mirror-second" src="/img/Banner/wing.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FEATURES ====== -->
+    <section class="features">
+        <div class="features__container container">
+            <div class="features__textbox textbox">
+                <h3 class="features__title title">Explore Premium Features</h3>
+                <div class="features__text text">Unique and powerful suite of software to run your entire business,
+                    brought
+                    to
+                    you by a company with the long term vision to transform the way you work.</div>
+            </div>
+            <div class="features__content">
+                <div class="features__card">
+                    <div class="features__cardtitle-holder">
+                        <svg class="features__icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64"
+                            viewBox="0 0 64 64" fill="none">
+                            <circle cx="42.3848" cy="42.3843" r="21.5" fill="#B1E8F2" />
+                            <path
+                                d="M27.8848 40.2593C34.7193 40.2593 40.2598 34.7188 40.2598 27.8843C40.2598 21.0498 34.7193 15.5093 27.8848 15.5093C21.0502 15.5093 15.5098 21.0498 15.5098 27.8843C15.5098 34.7188 21.0502 40.2593 27.8848 40.2593Z"
+                                stroke="#393939" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M42.2445 11.668C42.8977 12.2695 43.5164 12.8883 44.1008 13.5242L51.1391 14.5297C52.2859 16.5213 53.1698 18.6531 53.7687 20.8719L49.4891 26.5695C49.4891 26.5695 49.5664 28.3227 49.4891 29.1992L53.7687 34.8969C53.1726 37.1166 52.2885 39.2487 51.1391 41.2391L44.1008 42.2445C44.1008 42.2445 42.8891 43.5078 42.2445 44.1008L41.2391 51.1391C39.2474 52.2859 37.1156 53.1698 34.8969 53.7687L29.1992 49.4891C28.3244 49.5664 27.4444 49.5664 26.5695 49.4891L20.8719 53.7687C18.6522 53.1726 16.52 52.2885 14.5297 51.1391L13.5242 44.1008C12.8883 43.4992 12.2695 42.8805 11.668 42.2445L4.62969 41.2391C3.48289 39.2474 2.59897 37.1156 2 34.8969L6.27969 29.1992C6.27969 29.1992 6.20234 27.4461 6.27969 26.5695L2 20.8719C2.5962 18.6522 3.48026 16.52 4.62969 14.5297L11.668 13.5242C12.2695 12.8883 12.8883 12.2695 13.5242 11.668L14.5297 4.62969C16.5213 3.48289 18.6531 2.59897 20.8719 2L26.5695 6.27969C27.4444 6.20233 28.3244 6.20233 29.1992 6.27969L34.8969 2C37.1166 2.5962 39.2487 3.48026 41.2391 4.62969L42.2445 11.668Z"
+                                stroke="#393939" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h5 class="features__card-title title">Powerful Settings</h5>
+
+                    </div>
+                    <div class="features__card-text text">Provide excellent customer service.
+                        Answer more tickets.</div>
+                </div>
+                <div class="features__card features__card-active">
+                    <div class="features__cardtitle-holder">
+                        <svg class="features__icon" xmlns="http://www.w3.org/2000/svg" width="70" height="61"
+                            viewBox="0 0 70 61" fill="none">
+                            <circle cx="48.5" cy="38.9421" r="21.5" fill="#FAD7C9" />
+                            <path
+                                d="M25.5 35.4421C34.6127 35.4421 42 28.0548 42 18.9421C42 9.82944 34.6127 2.44214 25.5 2.44214C16.3873 2.44214 9 9.82944 9 18.9421C9 28.0548 16.3873 35.4421 25.5 35.4421Z"
+                                stroke="#303030" stroke-width="3" stroke-miterlimit="10" />
+                            <path
+                                d="M2 46.4421C4.87931 42.9975 8.47529 40.2277 12.5352 38.3273C16.5951 36.4269 21.0204 35.4421 25.5 35.4421C29.9796 35.4421 34.4049 36.4269 38.4648 38.3273C42.5247 40.2277 46.1207 42.9975 49 46.4421"
+                                stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M56.5 32.4421C58.9853 32.4421 61 30.6513 61 28.4421C61 26.233 58.9853 24.4421 56.5 24.4421C54.0147 24.4421 52 26.233 52 28.4421C52 30.6513 54.0147 32.4421 56.5 32.4421Z"
+                                stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M56 24.4421V20.4421" stroke="#303030" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M53 26.4421L50 24.4421" stroke="#303030" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M53 30.4421L50 32.4421" stroke="#303030" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M56 32.4421V36.4421" stroke="#303030" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M60 30.4421L63 32.4421" stroke="#303030" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M60 26.4421L63 24.4421" stroke="#303030" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <h5 class="features__card-title title">User Friendly</h5>
+                    </div>
+                    <div class="features__card-text text">Use Timeline to plan projects right how the pieces fit
+                        together.</div>
+                </div>
+                <div class="features__card">
+                    <div class="features__cardtitle-holder">
+                        <svg class="features__icon" xmlns="http://www.w3.org/2000/svg" width="76" height="77"
+                            viewBox="0 0 76 77" fill="none">
+                            <circle cx="44.5" cy="49.9421" r="21.5" fill="#F5C9E9" />
+                            <path
+                                d="M10.5048 58.9373C7.93942 56.3719 9.64038 50.9902 8.32981 47.8393C7.01923 44.6883 2 41.9277 2 38.4421C2 34.9566 6.96346 32.3075 8.32981 29.045C9.69615 25.7825 7.93942 20.5123 10.5048 17.9469C13.0702 15.3816 18.4519 17.0825 21.6029 15.7719C24.7538 14.4614 27.5144 9.44214 31 9.44214C34.4856 9.44214 37.1346 14.4056 40.3971 15.7719C43.6596 17.1383 48.9298 15.3816 51.4952 17.9469C54.0606 20.5123 52.3596 25.8941 53.6702 29.045C54.9808 32.196 60 34.9566 60 38.4421C60 41.9277 55.0365 44.5768 53.6702 47.8393C52.3038 51.1018 54.0606 56.3719 51.4952 58.9373C48.9298 61.5027 43.5481 59.8018 40.3971 61.1123C37.2462 62.4229 34.4856 67.4421 31 67.4421C27.5144 67.4421 24.8654 62.4787 21.6029 61.1123C18.3404 59.746 13.0702 61.5027 10.5048 58.9373Z"
+                                stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M43 31.4421L26.9909 47.4421L19 39.4421" stroke="#303030" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h5 class="features__card-title title">Integrated platform</h5>
+
+                    </div>
+                    <div class="features__card-text text">Vivamus massa eleifend etiam neque
+                        odio feugiat dolor est.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CORE ====== -->
+    <section class="core">
+        <img class="core__background" src="/img/Analytics/Background.png" alt="Background">
+
+        <div class="core__container container">
+
+            <div>
+                <img class="core__img" src="/img/Analytics/Image.png" alt="Analytics">
+            </div>
+
+            <div class="core__content">
+                <div class="core__text-box">
+                    <h2 class="core__title title">Allocate Leads and Simplify Lead Management</h2>
+                    <div class="core__text">Unique and powerful suite of software to run your entire business, brought
+                        to you by a company with the long term vision to transform the way you work.</div>
+                </div>
+                <div class="core__points-box">
+                    <div class="core__point">
+                        <div><svg class="core__icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                                viewBox="0 0 21 21" fill="none">
+                                <circle cx="10.5" cy="10.5" r="10" fill="#47CFFF" stroke="#1EB1E6" />
+                            </svg></div>
+                        <div class="core__point-text-box">
+                            <h4 class="core__point-title">Lead generation</h4>
+                            <div class="core__point-text">Guide Helps Companies Increase Customer & Agent Satisfaction,
+                                Also Reducing Support Costs.</div>
+                        </div>
+                    </div>
+                    <div class="core__point">
+                        <div><svg class="core__icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                                viewBox="0 0 21 21" fill="none">
+                                <circle cx="10.5" cy="10.5" r="10" fill="#47CFFF" stroke="#1EB1E6" />
+                            </svg></div>
+                        <div class="core__point-text-box">
+                            <h4 class="core__point-title">Team Email</h4>
+                            <div class="core__point-text">Group Your Contacts By Location, Age, And Almost Any
+                                Behavior With Advanced Segmentation Tools.</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- ====== TOOLS ====== -->
+    <section class="tools">
+        <div class="tools__container container">
+            <div class="tools__content">
+                <div class="tools__textbox">
+                    <h2 class="tools__title title">Ways a project management tool can help your team</h2>
+                    <div class="tools__text text">Unique and powerful suite of software to run your entire business,
+                        brought
+                        to you by a company with the long term vision to transform the way you work.</div>
+                </div>
+
+                <div class="tools__pointbox">
+                    <div class="tools__point">
+                        <img class="tools__icon" src="/img/Tools/points/icon_1.png" alt="">
+                        <h5 class="tools__subtitle">CRM Security</h5>
+                        <div class="tools__subtext text">cards and make more sales while chatting</div>
+                    </div>
+                    <div class="tools__point">
+                        <img class="tools__icon" src="/img/Tools/points/icon_2.png" alt="">
+                        <h5 class="tools__subtitle">Marketing Hub</h5>
+                        <div class="tools__subtext text">Show off your goods in elegant product cards and mak.</div>
+                    </div>
+                </div>
+
+                <button class="tools__button">Get Started</button>
+            </div>
+            <div>
+                <img src="/img/Tools/Image.png" alt="Our Tools" class="tools__crm">
+
+            </div>
+        </div>
+        <img src="/img/Tools/Background.png" alt="Background" class="tools__background">
+    </section>
+
+    <!-- ====== LOGOS ====== -->
+    <section class="logos">
+        <div class="logos__container container">
+
+            <div class="logos__textbox">
+                <h2 class="logos__title title">
+                    Trusted by more than 75 million users globally
+                </h2>
+                <div class="logos__text text">
+                    Unique and powerful suite of software to run your entire business, brought to you transform the way
+                    you work.
+                </div>
+            </div>
+
+            <div>
+                <img class="logos__clients" src="/img/logos/Client Logo.png" alt="Clinet Logos">
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====== NEWS ====== -->
+    <section class="news">
+        <div class="news__container container">
+            <div class="news__content-container">
+                <div class="news__content">
+
+                    <div class="news__textbox">
+                        <h2 class="news__title news__color title">Sell | Serve | Automate</h2>
+                        <div class="news__text news__color text">Boost enrolment and
+                            manage student lifecycle
+                            with our 360° CRM</div>
+                    </div>
+
+                    <div class="news__mailbox">
+                        <div class="news__mailtext news__color text">*Your Business Email Address</div>
+                        <div class="news__email-row">
+                            <input type="email" class="news__email" placeholder="Email">
+                            <button class="news__button">Try Now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <img src="/img/newsletter/dashboard.png" alt="Dashboard" class="news__dashboard">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== PRODUCT ====== -->
+    <section class="product">
+        <div class="product__container container">
+
+            <div class="product__header">
+                <div class="product__title title">Sales Automation Modules</div>
+                <div class="product__text text">Unique and powerful suite of software to run your entire business,
+                    brought to you by a company with the long term vision to transform the way you work.</div>
+            </div>
+
+            <div class="product__holder">
+                <div class="product__content">
+                    <div class="product__column">
+                        <div class="product__topic">In Need</div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/sales.png" alt="sales" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Sales</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/marketing.png" alt="marketing" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Marketing</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/service.png" alt="service" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Service</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__column">
+                        <div class="product__topic">Industry</div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/automative.png" alt="sales" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Automotive</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/estate.png" alt="marketing" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Real estate</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/education.png" alt="service" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Education</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product__column">
+                        <div class="product__topic">Solution</div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/project.png" alt="sales" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Project Management</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/delivery.png" alt="marketing" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Delivery Management</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/loyalty.png" alt="service" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Loyalty Management</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                        <div class="product__item">
+                            <img src="/img/product/icons/proffesional.png" alt="service" class="product__icon">
+                            <div class="product__textbox">
+                                <div class="product__subtitle">Professional Management</div>
+                                <div class="product__subtext">Unique and powerful suite sale
+                                    run your entire business</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====== WORKS ====== -->
+    <section class="works">
+        <div class="works__container container">
+            <div class="works__content">
+
+                <div class="works__header">
+                    <h2 class="works__title title">How It Works</h2>
+                    <div class="works__text text">Unique and powerful suite of software to run your business, brought to
+                        you by vision to you work.</div>
+                </div>
+
+                <div class="works__items-holder">
+
+                    <div class="works__item">
+                        <div class="works__number">01</div>
+                        <div class="works__textbox">
+                            <div class="works__subtitle">Download Our App</div>
+                            <div class="works__subtext">CentraHub CRM automatically logs in any reactions
+                                made by your leads, prospects</div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <div class="works__number">02</div>
+                        <div class="works__textbox">
+                            <div class="works__subtitle">List Your Company Detail</div>
+                            <div class="works__subtext">Customers making it easier for your sales team members audience
+                                they make contact.</div>
+                        </div>
+                    </div>
+
+                    <div class="works__item">
+                        <div class="works__number">03</div>
+                        <div class="works__textbox">
+                            <div class="works__subtitle">Enjoy Your Business</div>
+                            <div class="works__subtext">customers, making it easier for your sales team members audience
+                                before make contact.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mobile">
+                <div class="mobile__content">
+                    <h3 class="mobile__title title">The Perfect CRM Software: Boost Your Field Sales Team’s Efficiency
+                    </h3>
+                    <div class="mobile__textbox">
+
+                        <div class="mobile__texts">
+                            <div class="mobile__uppertext">Depending on the Sales Approaches Standardize a Marketing
+                                Process
+                            </div>
+                            <div class="mobile__lowertext text">Unique and powerful suite of software to run your entire
+                                business, brought to you by a company.</div>
+                        </div>
+
+                        <div class="mobile__buttons-holder">
+                            <button class="mobile__button">
+                                <img class="mobile__icon" src="/img/Work/mobile/Apple.png" alt="Apple Icon">
+                                <div class="mobile__button-box">
+                                    <div class="mobile__small-text">Download on the</div>
+                                    <div class="mobile__big-text">App Store</div>
+                                </div>
+                            </button>
+                            <button class="mobile__button">
+                                <img class="mobile__icon" src="/img/Work/mobile/PlayMarket.png" alt="Play Market">
+                                <div class="mobile__button-box">
+                                    <div class="mobile__small-text">GET IT ON</div>
+                                    <div class="mobile__big-text">Google Play</div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="mobile__img" src="/img/Work/mobile/Mobile.png" alt="Mobile Phone">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====== REVIEWS ====== -->
+    <section class="reviews">
+        <div class="reviews__container container">
+
+            <div class="reviews__swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="reviews__user">
+                                <div class="reviews__icons">
+                                    <img src="/img/Reviews/swiper/brackets.png" alt="brackets"
+                                        class="reviews__brackets">
+                                    <img src="/img/Reviews/swiper/photo.png" alt="photo" class="reviews__photo">
+                                </div>
+                                <div class="reviews__header">
+                                    <div class="reviews__author">Adam Chen</div>
+                                    <div class="reviews__position">Analyst</div>
+                                </div>
+                            </div>
+                            <div class="reviews__rating">
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                            </div>
+                            <div class="reviews__text">“ PrimeCRM Is The Most Intuitive And Modern Live Chat We Found.
+                                Live
+                                Chat Obviously Made <span class="reviews__highlighted">Our Users Happier</span> And Our
+                                Service Department More Efficient</div>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="reviews__user">
+                                <div class="reviews__icons">
+                                    <img src="/img/Reviews/swiper/brackets.png" alt="brackets"
+                                        class="reviews__brackets">
+                                    <img src="/img/Reviews/swiper/photo.png" alt="photo" class="reviews__photo">
+                                </div>
+                                <div class="reviews__header">
+                                    <div class="reviews__author">Adam Chen</div>
+                                    <div class="reviews__position">Analyst</div>
+                                </div>
+                            </div>
+                            <div class="reviews__rating">
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                            </div>
+                            <div class="reviews__text">“ PrimeCRM Is The Most Intuitive And Modern Live Chat We Found.
+                                Live
+                                Chat Obviously Made <span class="reviews__highlighted">Our Users Happier</span> And Our
+                                Service Department More Efficient</div>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="reviews__user">
+                                <div class="reviews__icons">
+                                    <img src="/img/Reviews/swiper/brackets.png" alt="brackets"
+                                        class="reviews__brackets">
+                                    <img src="/img/Reviews/swiper/photo.png" alt="photo" class="reviews__photo">
+                                </div>
+                                <div class="reviews__header">
+                                    <div class="reviews__author">Adam Chen</div>
+                                    <div class="reviews__position">Analyst</div>
+                                </div>
+                            </div>
+                            <div class="reviews__rating">
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                            </div>
+                            <div class="reviews__text">“ PrimeCRM Is The Most Intuitive And Modern Live Chat We Found.
+                                Live
+                                Chat Obviously Made <span class="reviews__highlighted">Our Users Happier</span> And Our
+                                Service Department More Efficient</div>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide">
+                        <figure>
+                            <div class="reviews__user">
+                                <div class="reviews__icons">
+                                    <img src="/img/Reviews/swiper/brackets.png" alt="brackets"
+                                        class="reviews__brackets">
+                                    <img src="/img/Reviews/swiper/photo.png" alt="photo" class="reviews__photo">
+                                </div>
+                                <div class="reviews__header">
+                                    <div class="reviews__author">Adam Chen</div>
+                                    <div class="reviews__position">Analyst</div>
+                                </div>
+                            </div>
+                            <div class="reviews__rating">
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                                <svg class="reviews__star" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    viewBox="0 0 30 30" fill="none">
+                                    <path
+                                        d="M13.3356 2.0584C13.8529 0.466231 16.1054 0.466231 16.6227 2.0584L18.9205 9.13033C19.1519 9.84237 19.8154 10.3245 20.5641 10.3245L28 10.3245C29.6741 10.3245 30.3701 12.4667 29.0157 13.4507L23 17.8214C22.3943 18.2615 22.1409 19.0415 22.3722 19.7535L24.67 26.8255C25.1873 28.4177 23.365 29.7416 22.0107 28.7576L15.9949 24.3869C15.3892 23.9469 14.569 23.9469 13.9634 24.3869L7.94761 28.7576C6.59323 29.7416 4.77092 28.4177 5.28825 26.8255L7.58606 19.7535C7.81742 19.0415 7.56397 18.2615 6.95827 17.8214L0.942525 13.4507C-0.411854 12.4667 0.284205 10.3245 1.95831 10.3245L9.39418 10.3245C10.1429 10.3245 10.8064 9.84237 11.0378 9.13033L13.3356 2.0584Z"
+                                        fill="#FFB545" />
+                                </svg>
+                            </div>
+                            <div class="reviews__text">“ PrimeCRM Is The Most Intuitive And Modern Live Chat We Found.
+                                Live
+                                Chat Obviously Made <span class="reviews__highlighted">Our Users Happier</span> And Our
+                                Service Department More Efficient</div>
+                        </figure>
+                    </div>
+
+                </div>
+
+                <div class="swiper__custom-nav">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+            </div>
+
+            <div class="reviews__counter">
+                <div class="reviews__element">
+                    <div class="reviews__numbers">4.9<span style="color:#47CFFF">/</span>5</div>
+                    <div class="reviews__subtext">User Rating</div>
+                </div>
+                <div class="reviews__element">
+                    <div class="reviews__numbers">350<span style="color:#FFB545">K</span>+</div>
+                    <div class="reviews__subtext">Customers</div>
+                </div>
+                <div class="reviews__element">
+                    <div class="reviews__numbers">99<span style="color:#47DD56">+</span></div>
+                    <div class="reviews__subtext">Team Members</div>
+                </div>
+                <div class="reviews__element">
+                    <div class="reviews__numbers">41<span style="color:#FF5454">M</span></div>
+                    <div class="reviews__subtext">Current Users</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====== PRICING ====== -->
+    <section class="pricing">
+        <div class="pricing__container container">
+
+            <div class="pricing__header">
+                <h2 class="pricing__title title">Deliver End-To-End Retail Billing & Solutions</h2>
+                <div class="pricing__subtitle-text text">Unique and powerful suite of software to run your entire
+                    business,
+                    brought to you by a company with the long term vision to transform the way you work.</div>
+            </div>
+
+            <div class="pricing__content">
+                <div class="column">
+                    <div class="column__header">
+                        <img src="/img/Pricing/Icon_1.png" alt="Icon_Starter" class="column__icon">
+                        <div class="column__name">Starter</div>
+                    </div>
+                    <div class="column__content">
+
+                        <h3 class="column__title title">$45/mo</h3>
+                        <div class="column__text text">Includes <span class="black__highlight">1,000</span> marketing
+                            contacts. Additional marketing contacts are
+                            sold in increments of <span class="black__highlight">1,000</span> from</div>
+
+                        <div class="column__features">
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Outbound email and <span
+                                        class="black__highlight">in-product</span></div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Messaging</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext"><span style="color: #FFB545; font-weight: 700;">Push
+                                        messages</span> &
+                                    notifications</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Custom bots</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Mobile Carousels</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Banner messages</div>
+                            </div>
+
+                        </div>
+
+                        <button class="column__button">Get Started</button>
+
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column__header">
+                        <img src="/img/Pricing/Icon_2.png" alt="Icon_Professional" class="column__sales-icon">
+                        <div class="column__name">Professional</div>
+                    </div>
+                    <div class="column__content">
+
+                        <div class="column__title-holder">
+                            <h3 class="column__title title">$60/mo</h3>
+                            <img src="/img/Pricing/sales_Icon.png" alt="Sales_Icon" class="column__sales">
+                        </div>
+                        <div class="column__text text">Includes <span class="black__highlight">2,000</span> marketing
+                            contacts. Additional marketing contacts
+                            are sold in increments of <span class="black__highlight">5,000</span> from</div>
+
+                        <div class="column__features">
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Outbound email and <span
+                                        class="black__highlight">in-product</span></div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Messaging</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext"><span style="color: #FFB545; font-weight: 700;">Push
+                                        messages</span> &
+                                    notifications</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Custom bots</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Mobile Carousels</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Banner messages</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext"><span class="black__highlight">Multi-channel</span>
+                                    campaigns</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">A/B testing & control groups</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Website traffic analytics</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Campaign reporting</div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext"><span class="black__highlight">Custom reporting</span>
+                                </div>
+                            </div>
+
+                            <div class="column__feature">
+                                <img src="/img/Pricing/Vector.png" alt="Vector" class="column__vector">
+                                <div class="column__subtext">Salesforce integration</div>
+                            </div>
+
+                        </div>
+
+                        <button class="column__button">Get Started</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <section class="footer">
+        <div class="footer__container container">
+            <div class="footer__header">
+                <div class="footer__logo-box">
+                    <img src="/img/footer/Logo.png" alt="Logo" class="footer__logo">
+                    <h2 class="footer__title title footer__text">PrimeCRM</h2>
+                </div>
+                <nav class="footer__follow">
+                    <a href="#" class="footer__icon"><img src="/img/footer/Instagram.png" alt="Instagram"></a>
+                    <a href="#" class="footer__icon"><img src="/img/footer/Facebook.png" alt="Facebook"></a>
+                    <a href="#" class="footer__icon"><img src="/img/footer/Twiter.png" alt="Twiter"></a>
+                    <a href="#" class="footer__icon"><img src="/img/footer/Linked in.png" alt="LinkedIn"></a>
+                    <a href="#" class="footer__icon"><img src="/img/footer/Youtube.png" alt="Youtube"></a>
+                </nav>
+            </div>
+
+            <div class="footer__sections">
+                <div class="footer__headlines">
+                    <div class="footer__headline footer__text">Usefull Link</div>
+                    <div class="footer__headline footer__text">Service</div>
+                    <div class="footer__headline footer__text">Contact Us</div>
+                    <div class="footer__headline footer__text">Our Latest News</div>
+                </div>
+                <button class="footer__dropdown"></button>
+            </div>
+
+            <div class="footer__content">
+                <div class="footer__columns">
+                    <nav class="footer__nav footer__nav-first">
+                        <a href="#" class="footer__link footer__text">Solution</a>
+                        <a href="#" class="footer__link footer__text">Industries</a>
+                        <a href="#" class="footer__link footer__text">Products</a>
+                        <a href="#" class="footer__link footer__text">Resources</a>
+                        <a href="#" class="footer__link footer__text">Pricing</a>
+                    </nav>
+                    <nav class="footer__nav footer__nav-second">
+                        <a href="#" class="footer__link footer__text">Sale</a>
+                        <a href="#" class="footer__link footer__text">Marketing</a>
+                        <a href="#" class="footer__link footer__text">Real Estate</a>
+                        <a href="#" class="footer__link footer__text">Autimotive</a>
+                        <a href="#" class="footer__link footer__text">Education</a>
+                    </nav>
+                    <div class="footer__contacts">
+                        <div class="footer__contact-first footer__text">1700 W Blancke St, kyiv
+                            port south USA, American</div>
+                        <div class="footer__contact-second footer__text">+3255 456 789
+                            mail@primarily.com</div>
+                    </div>
+                    <div class="footer__news">
+                        <button class="footer__button footer__text">Read Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright footer__text">Copyright © Primarly | Designed by VictorFlow Templates </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="/js/scripts.js"></script>
+</body>
+
+</html>
