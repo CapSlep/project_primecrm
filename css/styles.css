@@ -40,6 +40,7 @@ a {
 button {
     cursor: pointer;
     transition: all 0.2s;
+    padding: 0;
 }
 
 button:hover {
@@ -1005,9 +1006,6 @@ button:active {
     margin-bottom: 5px;
 }
 
-.works__text {
-    /* max-width: 608px; */
-}
 
 .works__item {
     display: flex;
@@ -1072,17 +1070,11 @@ button:active {
     align-items: flex-start;
     gap: 21px;
 }
-.mobile__title {
-    /* max-width: 551px; */
-}
 .mobile__textbox {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
-}
-.mobile__texts {
-    /* max-width: 580px; */
 }
 
 .mobile__uppertext {
@@ -1487,17 +1479,21 @@ button.footer__dropdown:hover {
 }
 
 .footer__dropdown {
-    width: 41px;
-    height: 41px;
+    min-width: 42px;
+    height: 42px;
 
     transform: scale(1, -1);
     border: none;
     background-color: transparent;
-    background-image: url(/img/footer/DropDown.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    border-radius: 50%;
 }
+
+.footer__dropdown-img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 .footer__dropdown.toggle {
     transform: scale(1, 1);
 }
