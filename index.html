@@ -22,7 +22,7 @@
     <section class="header js-header">
         <div class="header__container container">
 
-            <div class="header__logo">
+            <a href="#" class="header__logo" data-scroll="#banner">
                 <svg class="header__icon" xmlns="http://www.w3.org/2000/svg" width="56" height="55" viewBox="0 0 56 55"
                     fill="none">
                     <rect x="0.857422" width="55" height="55" rx="9" fill="#F4F4F4" />
@@ -35,15 +35,15 @@
                         fill="#47CFFF" />
                 </svg>
                 <h2 class="header__title title">PrimeCRM</h2>
-            </div>
+            </a>
 
             <nav class="header__nav js-nav">
-                <a href="#" class="header__link">Solution</a>
-                <a href="#" class="header__link">Industries</a>
-                <a href="#" class="header__link">Products</a>
-                <a href="#" class="header__link">Resources</a>
-                <a href="#" class="header__link">Pricing</a>
-                <a href="#" class="header__link header__link-active">Login</a>
+                <a href="#" class="header__link" data-scroll="#core">Solution</a>
+                <a href="#" class="header__link" data-scroll="#logos">Industries</a>
+                <a href="#" class="header__link" data-scroll="#product">Products</a>
+                <a href="#" class="header__link" data-scroll="#works">Resources</a>
+                <a href="#" class="header__link" data-scroll="#pricing">Pricing</a>
+                <a href="#" class="header__link header__link-active" data-scroll="#banner">Login</a>
             </nav>
 
             <button class="burger" type="button" id="burgerToggle">
@@ -54,7 +54,7 @@
     </section>
 
     <!-- ====== BANNER ====== -->
-    <section class="banner">
+    <section class="banner js-banner" id="banner">
         <div class="banner__background"></div>
         <div class="banner__container container">
             <div class="banner__content">
@@ -193,7 +193,7 @@
     </section>
 
     <!-- ====== CORE ====== -->
-    <section class="core">
+    <section class="core" id="core">
         <img class="core__background" src="/img/Analytics/Background.png" alt="Background">
 
         <div class="core__container container">
@@ -272,7 +272,7 @@
     </section>
 
     <!-- ====== LOGOS ====== -->
-    <section class="logos">
+    <section class="logos" id="logos">
         <div class="logos__container container">
 
             <div class="logos__textbox">
@@ -323,7 +323,7 @@
     </section>
 
     <!-- ====== PRODUCT ====== -->
-    <section class="product">
+    <section class="product" id="product">
         <div class="product__container container">
 
             <div class="product__header">
@@ -430,7 +430,7 @@
     </section>
 
     <!-- ====== WORKS ====== -->
-    <section class="works">
+    <section class="works" id="works">
         <div class="works__container container">
             <div class="works__content">
 
@@ -755,7 +755,7 @@
     </section>
 
     <!-- ====== PRICING ====== -->
-    <section class="pricing">
+    <section class="pricing" id="pricing">
         <div class="pricing__container container">
 
             <div class="pricing__header">
@@ -936,10 +936,10 @@
                     <div class="footer__headline footer__text">Contact Us</div>
                     <div class="footer__headline footer__text">Our Latest News</div>
                 </div>
-                <button class="footer__dropdown"></button>
+                <button class="footer__dropdown" type="button" id="footer__dropdown-toggle"></button>
             </div>
 
-            <div class="footer__content">
+            <div class="footer__content js-footer__content">
                 <div class="footer__columns">
                     <nav class="footer__nav footer__nav-first">
                         <a href="#" class="footer__link footer__text">Solution</a>
